@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "schoolInstructor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Documents/projects/structs and enums - solidity/structs_enums.sol": "School"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Documents/projects/structs and enums - solidity/structs_enums.sol": {
+			"keccak256": "0xc82306d5e930e9211b36b856864c408f027dd0d04c76e22f3841509106617c22",
+			"urls": [
+				"bzz-raw://7e73876c91c786de0cc799865a333c5e040afce7bfaa7d24e4ca18a256cf7467",
+				"dweb:/ipfs/QmTqbTCyiUWXL4Rt5pvHjeNKWWaDzPemTQsVu1pUn2V9U2"
+			]
+		}
+	},
+	"version": 1
+}
